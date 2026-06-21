@@ -79,4 +79,5 @@ wget -nc -q --show-progress -O models/upscale_models/RealESRGAN_x4plus_anime_6B.
 echo "Setup Complete! Starting ComfyUI..."
 
 # 8. Launch ComfyUI
+python main.py --listen 0.0.0.0 --port 8188pip install -r requirements.txt sqlalchemy alembic   # ComfyUI core deps
 python main.py --listen 0.0.0.0 --port 8188
